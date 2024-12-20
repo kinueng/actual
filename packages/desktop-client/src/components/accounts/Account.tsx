@@ -1912,7 +1912,7 @@ export function Account() {
     state => state.modals.modalStack.length > 0,
   );
   const accountsSyncing = useAppSelector(
-    state => state.account.accountsSyncing,
+    state => state.accounts.accountsSyncing,
   );
   const filterConditions = location?.state?.filterConditions || [];
 
